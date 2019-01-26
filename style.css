@@ -1,9 +1,12 @@
 body{
-    background-color:#d3e6f7;
-    font-family: 'Montserrat', sans-serif;
+    background: #B2FEFA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0ED2F7, #B2FEFA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0ED2F7, #B2FEFA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      font-family: 'Montserrat', sans-serif;
 
 }
-a{
+
+m{
     color: #fffbf1;
     font-size: 70px;
     text-decoration: none;
@@ -21,16 +24,16 @@ b{
     letter-spacing: -2px;
     padding-right: 3%;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 40%;
     /*text-shadow: 0 20px 25px #6697f1;*/
 }
 
-c{
-    width: 50px;
-    height:50px;
+image_style{
+    max-width: 10px;
+    height:10px;
     margin-right: 20%;
+    top: 50%;
     position: absolute;
-    top: 53%;
-    left: 40%;
+    left: 35%;
 }
